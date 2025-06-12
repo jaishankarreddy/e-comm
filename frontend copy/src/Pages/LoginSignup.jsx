@@ -17,7 +17,7 @@ const LoginSignup = () => {
   const login = async () => {
     console.log("login done", formData);
     let responseData;
-    await fetch('http://localhost:4000/login', {
+    await fetch('https://e-comm-backend-wvjk.onrender.com/login', {
       method: 'POST',
       headers: {
         Accept: 'application/form-data',
@@ -41,7 +41,7 @@ const LoginSignup = () => {
   const signup = async () => {
     console.log("sign up done", formData);
     let responseData;
-    await fetch('http://localhost:4000/signup', {
+    await fetch('https://e-comm-backend-wvjk.onrender.com/signup', {
       method: 'POST',
       headers: {
         Accept: 'application/form-data',
