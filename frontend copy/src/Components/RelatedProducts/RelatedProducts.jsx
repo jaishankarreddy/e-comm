@@ -10,7 +10,7 @@ const RelatedProducts = () => {
 
 
   useEffect(() => {
-    fetch('http://localhost:4000/newcollections')
+    fetch('https://e-comm-backend-wvjk.onrender.com/newcollections')
       .then((response) => response.json())
       .then((data) => setRelated_products(data));
   },[])
