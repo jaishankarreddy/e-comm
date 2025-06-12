@@ -1,0 +1,32 @@
+.nav-logo{
+    filter: invert();
+    width: 47px;
+}
+
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 60px;
+    box-shadow:  0px 1px 5px -2px #000;
+    margin-bottom: 1px;
+    background: rgb(255, 255, 255);
+}
+.nav-profile{
+    width: 35px;
+}
+
+@media(max-width:800px){
+    .nav-logo{
+        width: 42px;
+    }
+    .navbar{
+        padding: 15px 40px;
+        box-shadow: 0px 1px 5px -2px #000;
+        margin-bottom: 1px;
+    }
+    .nav-profile{
+        width: 30px;
+    }
+    
+}

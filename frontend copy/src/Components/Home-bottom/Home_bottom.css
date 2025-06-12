@@ -1,0 +1,280 @@
+.hero2 {
+    align-items: center;
+    justify-content: center;
+    width: 80%;
+    margin: 0px auto;
+    /* border: 1px solid red; */
+    position: relative;
+    margin-top: -40px;
+    margin-bottom: 50px;
+    
+}
+
+img {
+    width: 85px;
+}
+
+.welcome {
+    font-size: 37px;
+    font-weight: 500;
+    text-align: center;
+}
+
+.heroDescription {
+    position: relative;
+    font-size: 1.2rem;
+    line-height: 1.75rem;
+    width: 680px;
+    margin: 0px auto;
+    margin-top: 20px;
+    text-align: center;
+}
+
+.heroPicHold {
+    margin-top: 3.5rem;
+    gap: 335px;
+    position: relative;
+    display: flex;
+    flex-direction: row;
+}
+
+.heroHeadingHold {
+    position: relative;
+    left: 7.5rem;
+    gap: 15rem;
+    top: -5.5rem;
+    font-size: 1.25rem;
+    line-height: 1.75rem;
+    font-weight: 500;
+    display: flex;
+    flex-direction: row;
+}
+
+.heroDescHold {
+    position: relative;
+    width: 85%;
+    left: 7.6rem;
+    gap: 11rem;
+    top: -4.5rem;
+    font-size: 1rem;
+    line-height: 1.5rem;
+    display: flex;
+    flex-direction: row;
+}
+
+* {
+    scrollbar-width: auto;
+    scrollbar-color: #7f90f0 #ffffff;
+}
+
+@media(max-width:1280px) {
+    .hero2 {
+        width: 80%;
+        margin: 0px auto;
+        position: relative;
+        margin-top: -40px;
+        margin-bottom: 50px;
+    }
+
+
+    .welcome {
+        font-size: 35px;
+        font-weight: 500;
+    }
+
+    .heroDescription {
+        font-size: 1.1rem;
+        line-height: 1.7rem;
+        width: 650px;
+        margin-top: 20px;
+    }
+
+    .heroPicHold {
+        margin-top: 3.5rem;
+        gap: 25vw;
+    }
+
+    .heroHeadingHold {
+        left: 7rem;
+        gap: 15rem;
+        top: -5.5rem;
+        font-size: 1.2rem;
+        line-height: 1.7rem;
+        font-weight: 500;
+    }
+
+    .heroDescHold {
+        position: relative;
+        width: 100%;
+        left: 7.6rem;
+        gap: 11rem;
+        top: -4.5rem;
+        font-size: 1rem;
+        line-height: 1.5rem;
+        display: flex;
+        flex-direction: row;
+    }
+
+}
+
+@media(max-width:1024px) {
+    .hero2 {
+        margin: auto;
+        position: relative;
+        margin-top: -40px;
+        margin-bottom: 50px;
+    }
+
+    .welcome {
+        font-size: 32px;
+        font-weight: 500;
+    }
+
+    .heroDescription {
+        font-size: 1rem;
+        line-height: 1.7rem;
+        width: 600px;
+        margin-top: 20px;
+    }
+
+    .heroPicHold {
+        margin-top: 3rem;
+        gap: 22vw;
+    }
+
+    .heroHeadingHold {
+        left: 5rem;
+        gap: 8.5rem;
+        top: -4.7rem;
+        font-size: 1rem;
+        line-height: 1.7rem;
+        font-weight: 500;
+        /* border: 1px solid red; */
+    }
+
+    .heroDescHold {
+        /* border: 1px solid red; */
+        position: relative;
+        width: 90%;
+        left: 5rem;
+        gap: 7rem;
+        top: -4rem;
+        font-size: 0.8rem;
+        line-height: 1.3rem;
+        display: flex;
+        flex-direction: row;
+    }
+
+    .heroPicHold img {
+        width: 60px;
+    }
+
+}
+
+@media(max-width: 800px) {
+    .hero2 {
+        position: relative;
+        margin-top: -40px;
+        margin-bottom: 50px;
+    }
+
+    .welcome {
+        font-size: 24px;
+        font-weight: 500;
+    }
+
+    .heroDescription {
+        font-size: 13px;
+        line-height: 1.5rem;
+        width: 400px;
+        margin-top: 20px;
+    }
+
+    .heroPicHold {
+        margin-top: 2.3rem;
+        gap: 22vw;
+    }
+
+    .heroPicHold img {
+        width: 50px;
+    }
+
+    .heroHeadingHold {
+        left: 5rem;
+        gap: 5.6rem;
+        top: -4rem;
+        font-size: 14px;
+        line-height: 1rem;
+        font-weight: 500;
+        /* border: 1px solid red; */
+    }
+
+    .heroDescHold {
+        /* border: 1px solid red; */
+        position: relative;
+        width: 90%;
+        left: 5rem;
+        gap: 6rem;
+        top: -3rem;
+        font-size: 11px;
+        line-height: 1.2rem;
+        display: flex;
+        flex-direction: row;
+    }
+
+}
+
+
+@media(max-width: 500px) {
+    .hero2 {
+        width: 90%;
+        position: relative;
+        margin-top: -50px;
+      
+    }
+
+    .welcome {
+        font-size: 22px;
+        font-weight: 500;
+    }
+
+    .heroDescription {
+        font-size: 10px;
+        line-height: 1rem;
+        width: 92%;
+        margin: 7px auto;
+    }
+
+    .heroPicHold {
+        margin-top: 2.4rem;
+        gap: 24vw;
+    }
+
+    .heroPicHold img {
+        width: 35px;
+    }
+
+    .heroHeadingHold {
+        left: 0.5rem;
+        gap: 2.6rem;
+        top: -3.4rem;
+        font-size: 10px;
+        line-height: 1rem;
+        font-weight: 500;
+        /* border: 1px solid red; */
+    }
+ 
+    .heroDescHold {
+        /* border: 1px solid red; */
+        position: relative;
+        width: 90%;
+        left: 3rem;
+        gap: 3rem;
+        top: -2.7rem;
+        font-size: 8px;
+        line-height: 0.6rem;
+        display: flex;
+        flex-direction: row;
+    }
+
+}
