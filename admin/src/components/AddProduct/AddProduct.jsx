@@ -6,14 +6,12 @@ const AddProduct = () => {
 
     const [image, setImage] = useState(false);
 
-
     const [productDetails, setProductDetails] = useState({
         name: "",
         image: "",
         category: "",
         new_price: "",
         old_price: ""
-
     })
 
     const imageHandler = (e) => {
@@ -22,7 +20,6 @@ const AddProduct = () => {
     const changeHandler = (e) => {
         setProductDetails({ ...productDetails, [e.target.name]: e.target.value })
     }
-
 
     const Add_product = async () => {
         // console.log(productDetails);
